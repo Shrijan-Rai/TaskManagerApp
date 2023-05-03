@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"/>
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="message"/>
+
+    <item
+        android:id="@+id/nav_message1"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="message"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="setting"/>
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_logOut"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="LogOut"
+                />
+            </group>
+
+        </menu>
+
+    </item>
+    <item android:title="Community">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share"/>
+            </group>
+
+
+        </menu>
+    </item>
+
+
+
+</menu>
